@@ -1,0 +1,14 @@
+node_modules/
+.env
+data/
+coverage/
+test-results/
+*.log
+*.zip
+
+# Windows 下 `> nul` 误建的文件（known_hosts 误存）
+nul
+known_hosts
+
+# 个人材料：仅保留在本地，不进入公开仓库
+docs/面试准备.md
